@@ -218,19 +218,24 @@ document.querySelector(`.title[img-title="Royal Opera Of Wallonia"]`).addEventLi
 })
  
 
-  document.querySelector(`.titles`).addEventListener("mouseleave", () => {
+ document.querySelectorAll(`.title`).forEach((el) => {
+  el.addEventListener("mouseleave", () => {
 
-            materialArray.current.uMatcapTexture1.value = mat2
-            
-            gsap.to(materialArray.current.uProgress, {
-                value: 0.0,
-                duration: 0.3,
-                onComplete: () => {
-                    materialArray.current.uMatcapTexture2.value = materialArray.current.uMatcapTexture1.value
-                    materialArray.current.uProgress.value = 1.0
-                }
-            })
-        })
+    materialArray.current.uMatcapTexture1.value = mat2
+
+    gsap.to(materialArray.current.uProgress, {
+      value: 0.0,
+      duration: 0.3,
+      onComplete: () => {
+        materialArray.current.uMatcapTexture2.value =
+          materialArray.current.uMatcapTexture1.value
+        materialArray.current.uProgress.value = 1.0
+      }
+    })
+
+  })
+})
+
 
 
 

@@ -122,7 +122,78 @@ of art, design and technology.</p>
         </div>
       </div>
     </section>
-    <section id="sec-3"></section>
+   <section id="sec-3">
+  <div className="sec3-wrapper">
+
+    <div className="sec3-left">
+      <span className="sec3-eyebrow">THIS IS HOW WE DO IT</span>
+      <h1 className="sec3-heading">
+        We’re crafting<br />
+        emotional<br />
+        experiences aimed<br />
+        at improving<br />
+        results
+      </h1>
+    </div>
+
+    <div className="sec3-right">
+      <p>
+        Dogstudio is a design & technology firm working globally
+        from our offices based in Belgium and Chicago. Our strong
+        focus on producing high quality & emotional brandings,
+        digital products and experiences became a signature.
+      </p>
+
+      <p>
+        We’re passionate about moving people and solving problems
+        for the likes of Microsoft, The Museum of Science And
+        Industry of Chicago, The Kennedy Center of Washington,
+        Dragone, Quanta Magazine, and many more.
+      </p>
+    </div>
+
+  </div>
+
+
+  <div className="sec3-footer">
+
+    <div className="sec3-cities">
+      <span>Chicago<i>.</i></span>
+      <span>Amsterdam<i>.</i></span>
+      <span>Paris<i>.</i></span>
+    </div>
+
+    <div className="sec3-footer-right">
+      <h2>
+        We<br />
+        Make<br />
+        Good<br />
+        Shit
+      </h2>
+
+      <div className="sec3-socials">
+        Fb / Ins / Dri / Tw
+      </div>
+    </div>
+
+  </div>
+
+  <div className="sec3-bottom">
+    <div>
+      We’d love to hear from you <span>—</span> biz@dogstudio.be
+    </div>
+
+    <div>
+      Subscribe to our newsletter &nbsp;&nbsp;
+      Language: 🇺🇸 English
+    </div>
+  </div>
+
+</section>
+
+
+
+
     </main>
   );
 };
