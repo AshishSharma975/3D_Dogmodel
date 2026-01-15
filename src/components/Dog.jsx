@@ -10,9 +10,11 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+
 const Dog = () => {
   gsap.registerPlugin(ScrollTrigger);
   gsap.registerPlugin(useGSAP);
+
 
   const model = useGLTF("/models/dog.drc.glb");
 

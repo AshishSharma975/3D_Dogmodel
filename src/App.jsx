@@ -172,7 +172,7 @@ of art, design and technology.</p>
       </h2>
 
       <div className="sec3-socials">
-        Fb / Ins / Dri / Tw
+        Fb / Ins / Dri / Tw /te
       </div>
     </div>
 
